@@ -1,0 +1,18 @@
+GET http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYyZmI0ZDkwMGJiZTUwYWFlMDcxNzQ2NSIsImlhdCI6MTY2MDY0NjM2OH0.9RAb56ihaYB-iQ109UkC1UzqsgYPhMIwunBALuMSJlk
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYyZmI0ZDkwMGJiZTUwYWFlMDcxNzQ2NSIsImlhdCI6MTY2MDY0NjM2OH0.9RAb56ihaYB-iQ109UkC1UzqsgYPhMIwunBALuMSJlk
+
+{
+    "url": "http://localhost:3000",
+    "title": "Blog Title"
+}
+
+###
+DELETE http://localhost:3003/api/blogs/62fc1438d2deb9da32175c02
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYyZmI0ZDkwMGJiZTUwYWFlMDcxNzQ2NSIsImlhdCI6MTY2MDY0NjM2OH0.9RAb56ihaYB-iQ109UkC1UzqsgYPhMIwunBALuMSJlk
